@@ -36,7 +36,7 @@ body {
 .container .form .form-text .title {
     font-size: 22px;
     margin-bottom: 0.6em;
-    color: #a4a4a4;
+    color: #7e7e7e;
    
 }
 .container .form .form-text .sub-title {
@@ -53,8 +53,8 @@ body {
     text-align: center;
 }
 .container .form #username {
-    width: 80%;
-    height: 4em;
+    width: 90%;
+    height: 3.8em;
     border-radius: 3px;
     padding: 5px;
     margin-bottom: 25px;
@@ -63,8 +63,8 @@ body {
     font-size: 13px;
 }
 .container .form #password {
-    width: 80%;
-    height: 4em;
+    width: 90%;
+    height: 3.8em;
     border-radius: 3px;
     padding: 5px;
     margin: auto;
@@ -74,8 +74,8 @@ body {
     font-size: 13px;
 }
 .container .form button {
-    width: 80%;
-    height: 4em;
+    width: 90%;
+    height: 3.8em;
     background-color: #03CEC3;
     font-size: 13px;
     color: white;
