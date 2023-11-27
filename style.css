@@ -7,20 +7,24 @@
     box-sizing: border-box;
     font-family: 'Poppins',Arial, Helvetica, sans-serif;
 }
+body {
+    background-color: #f7f7f7;
+}
 .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 75%;
-    height: 90vh;
+    width: 70%;
+    height: 80vh;
     box-shadow: -7px 8px 23px -8px rgba(59,59,59,0.75);
-    margin: 2.5em auto;
+    margin: 5em auto;
+    background-color: #ffff;
 }
 
 .container .form {
     width: 50%;
     height: 100%;
-    padding: 3em;
+    padding: 5em;
     margin: 2em auto;
 }
 .container .form .form-text {
@@ -30,13 +34,13 @@
     margin-bottom: 2em;
 }
 .container .form .form-text .title {
-    font-size: 30px;
+    font-size: 22px;
     margin-bottom: 0.6em;
     color: #a4a4a4;
    
 }
 .container .form .form-text .sub-title {
-    font-size: 17px;
+    font-size: 15px;
     font-weight: 400;
     color: #afafaf;
 }
@@ -56,6 +60,7 @@
     margin-bottom: 25px;
     border: 2px solid #efefef;
     color: #a4a4a4;
+    font-size: 13px;
 }
 .container .form #password {
     width: 80%;
@@ -66,12 +71,13 @@
     margin-bottom: 25px;
     border: 2px solid #efefef;
     color: #a4a4a4;
+    font-size: 13px;
 }
 .container .form button {
     width: 80%;
     height: 4em;
     background-color: #03CEC3;
-    font-size: 15px;
+    font-size: 13px;
     color: white;
     border: none;
     border-radius: 5px;
@@ -85,7 +91,7 @@
     font-size: 15px;
 }
 .container .form .account a {
-    font-size: 15px;
+    font-size: 12px;
     color: #03CEC3;
     cursor: pointer;
     text-decoration: none; 
@@ -97,7 +103,7 @@
 }
 .container .form .form-footer p {
     text-align: center;
-    font-size: 13px;
+    font-size: 11px;
     color: #a4a4a4;
    
 }
